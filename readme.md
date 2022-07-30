@@ -22,4 +22,4 @@ blah blah random text
         <p> Some text underneath it.</p>
 </div>
 
-<img src="https://www.popsci.com/uploads/2022/07/12/carina-nebula-james-webb-space-telescope-camera.jpg?auto=webp&width=1440&height=853.92" height="400" width="600"/>
+<img src="https://www.popsci.com/uploads/2022/07/12/carina-nebula-james-webb-space-telescope-camera.jpg?auto=webp&width=1440&height=853.92" height="40" width="600"/>
