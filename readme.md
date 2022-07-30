@@ -1,15 +1,13 @@
-<html>
-    <head>
-        <!-- Metadata is contained in this element -->
-    blah blah random text
-    </head>
+<head>
+    <!-- Metadata is contained in this element -->
+blah blah random text
+</head>
 <body>
 <ol>
     <li>Head east on Prince St</li>
     <li>Turn left on Elizabeth</li>
 </ol>
 </body>
-</html>
 
 <ul>
         <li>Cookies</li>
