@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
     <head>
         <!-- Metadata is contained in this element -->
@@ -25,12 +24,4 @@
         <p> Some text underneath it.</p>
 </div>
 
-<img src="C://Users/KC/OneDrive/Documents/cancel_rent.jpg" height="400" width="600"/>
-
-<br>
-
-<img src="../cancel_rent.jpg" height="400" width="600"/>
-
-<br>
-
-<img src="C://Users/KC/OneDrive/Pictures/blue_bridge.jpg" height="400" width="600"/>
+<img src="https://www.popsci.com/uploads/2022/07/12/carina-nebula-james-webb-space-telescope-camera.jpg?auto=webp&width=1440&height=853.92" height="400" width="600"/>
