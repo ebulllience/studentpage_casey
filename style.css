@@ -1,23 +1,43 @@
+html {
+    display: table;
+    margin: auto;
+}
+
 body {
-    background-color:#fefff7
+    background-color:#fefff7;
+    height: auto;
+    width: 100%;
+    max-width: 1200px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.landingpic {
+    max-width: 100%;
+    text-align: center;
 }
 
 h1 {
-    size: 30rem;color:#2b2b2b;text-align:center;font-family: Helvetica;
+    size: 25rem;color:#2b2b2b;text-align:center;font-family: Helvetica;
 }
 
 h2 {
     size: 15rem;color:#2b2b2b;text-align:center;font-family: Helvetica;
 }
 
+.sub-head {
+    font-weight: 360;
+}
+
 .top-nav {
     border: 0.5vw solid #fefff7;
     background: #fefff7;
     font-family: Helvetica;
-    z-index: 2;
+    z-index: 999;
     float: left;
     width: 100%;
     text-align: center;
+    transition: 0.05s;
 }
 
 .top-nav ul {
@@ -30,6 +50,9 @@ h2 {
     float: none;
     display: inline-block;
     margin: 0 auto;
+
+    position: sticky;
+    top: 0%;
 }
 
 .top-nav ul li {
@@ -46,11 +69,11 @@ h2 {
     text-decoration: none;
 }
 
-/* Change the link color to #f8f7f3 (fruit background) on hover */
-.top-nav li a:hover {
-    background-color: #f8f7f3;
+.active {
+    background-color: #efece3;
 }
 
-.landing-image {
-    text-align: center;
+/* Change the link color to #efece3 on hover */
+.top-nav li a:hover {
+    background-color: #efece3;
 }
